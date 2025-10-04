@@ -27,7 +27,4 @@ A high-performance C++ trading engine demo that simulates market data ingestion,
 **Troubleshooting**  
 - Ensure UDP data feed or synthetic mode is enabled.  
 - Verify CSV headers before plotting; see `plot_hft_results.py` for column checks.  
-=======
-# high_frequency_trading_engine
-a high-performance C++ trading engine demo that simulates market data ingestion, lock-free queue order processing, order book matching, and performance metric collection with CSV export and plotting scripts.
->>>>>>> 5456effa80d1e56f8fbded7928bf32dd6b9167ea
+
