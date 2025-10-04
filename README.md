@@ -1,7 +1,7 @@
 # High Frequency Trading Engine (C++)
 
 **Overview**  
-A header-only, high-performance C++ trading engine demo that simulates market data ingestion, lock-free queue order processing, order book matching, and performance metric collection with CSV export and plotting scripts.
+A high-performance C++ trading engine demo that simulates market data ingestion, lock-free queue order processing, order book matching, and performance metric collection with CSV export and plotting scripts.
 
 **Key Features**  
 - Lock-free queue for ultra-low-latency order transfer  
