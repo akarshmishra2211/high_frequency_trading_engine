@@ -9,10 +9,10 @@ void OrderBook::processAll() {
     Order o;
     while (inbound_.dequeue(o)) {
         if (o.side == OrderSide::BUY) {
-            bids_[o.price] += o.quantity;
+            bids_[o.price] += o.qty;
         }
         else {
-            asks_[o.price] += o.quantity;
+            asks_[o.price] += o.qty;
         }
         // Matching logic can be extended here
     }

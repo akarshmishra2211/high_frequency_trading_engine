@@ -4,7 +4,7 @@
 
 TEST(OrderBook, SimpleSubmit) {
     OrderBook b;
-    Order o{ 1,OrderSide::BUY,100.0,10,{} };
+    Order o("SYM", 100.0, 10, OrderType::Market, OrderSide::BUY);
     b.submit(o);
     b.processAll();
     SUCCEED();
